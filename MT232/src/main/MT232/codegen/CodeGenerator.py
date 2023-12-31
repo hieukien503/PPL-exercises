@@ -20,10 +20,6 @@ class Symbol:
         self.mtype = mtype
         self.value = value
 
-    def __str__(self):
-        return "Symbol(" + self.name + "," + str(self.mtype) + ")"
-
-
 class CodeGenerator:
     def __init__(self):
         self.libName = "io"
